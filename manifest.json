@@ -1,14 +1,13 @@
 {
 	"manifest_version": 3,
-	"name": "I Hate Git White Space",
+	"name": "I Hate GitHub White Space",
 	"version": "1.0",
-	"description": "Automatically adds the white space filter to the GitHub diff view by using the `w=1` query parameter only if w isn't already present",
+	"description": "Automatically adds the hide white space filter to the GitHub diff view.",
 	"icons": {
 		"16": "icon-16.png",
-		"48": "icon-47.png",
+		"48": "icon-48.png",
 		"128": "icon-128.png"
 	},
-	"permissions": ["webNavigation"],
 	"host_permissions": ["https://github.com/*"],
 	"content_scripts": [
 		{
