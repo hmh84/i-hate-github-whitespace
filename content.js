@@ -7,7 +7,7 @@ const checkUrl = () => {
 	const isPullRequestsFilesPage =
 		url.pathname.includes('/pull/') && url.pathname.includes('/files');
 
-	const isCommitDiffPage = url.pathname.includes('/commits/') || pathname.includes('/commit/'); // The ending "/" is important to know if it's the diff page
+	const isCommitDiffPage = url.pathname.includes('/commits/') || url.pathname.includes('/commit/'); // The ending "/" is important to know if it's the diff page
 
 	if (!isCommitDiffPage && !isPullRequestsFilesPage) return;
 
